@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.card {
+    margin: auto;
+    display: flex;
+    height: 400px;
+    width: 450px;
+    border-radius: 3%;
+    border: 2px solid rgba(246, 246, 246, 1);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.card_thumbnail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: fit-content;
+    color: #9c87d4;
+    font-size: 0.8rem;
+    font-weight: 600;
+    height: 30px;
+    border-radius: 2rem;
+    background-color: rgba(228, 228, 255, 0.6);
+}
+
+.card_description {
+    font-weight: 300;
+}
+
+.card_container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card_share {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_share-counter {
+    display: flex;
+}
+
+.share_counter {
+    font-weight: 300;
+}
+
+.icon {
+    margin-right: 0.8rem;
+}
+
+.card_invitation {
+    display: flex;
+    align-items: center;
+}
+
+.user_profile {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.user_profile-img {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    margin-left: -15px;
+}
+
+
+.user_profile-img img {
+    width: 100%;
+    display: block;
+}
+
+.invitation_button {
+    cursor: pointer;
+    font-weight: 300;
+    padding: 0.7rem;
+    width: 4.8rem;
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: #57a0ff;
+}
+
+.invitation_button:hover {
+    background-color: #3a7cc4;
+}
+
+
+.card_buttons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    border-radius: 10rem;
+    border: 1px solid rgb(194, 194, 194, 1);
+}
+
+.card_buttons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card_buttons img{
+    margin-right: 0.5rem;
+}
+
+.vertical_line {
+    display: flex;
+    width: 0px;
+    border-left: 1px solid rgb(194, 194, 194, 1);
+}
