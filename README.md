@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center">BeeTrip_integration</h1>
-  <h2>Lien de la page :</h2>
+  <h2>Lien de la page : https://neelyaa.github.io/BeeTrip_integration/</h2>
 <p align="center">
   <h2>Schéma base de donnée</h2>
   <img src="https://github.com/user-attachments/assets/9fe3ca1a-0303-4bde-9a7f-45fc9327fe12" />
